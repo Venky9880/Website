@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .main{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+        }
+        .calculator{
+            background-color: black;
+            border-radius: 10px;
+            height: 55vh;
+            width: 20vw;
+            padding: 10px;
+        }
+        .btn{
+            height:50px ;
+            width: 50px;
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #screen{
+            border-radius: 10px;
+            width: 220px;
+            padding:10px ;
+            text-align: center;
+            outline: none;
+            font-size: 20px;
+        
+        }
+        .calc-inner{
+            /* background-color: red; */
+            width: 254px;
+            margin: auto;
+        }
+        .display{
+            text-align: center;
+        }
+        #cancel{
+           background-color:orangered;
+           height:50px ;
+            width: 50px;
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #equals{
+            font-size: 20px;
+            font-weight: bold;
+            height:50px ;
+            width: 70.5%;
+            margin: 5px;
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>calculator</h1>
+        <div class="calculator">
+            <div class="calc-inner">
+            <div class="display">
+                <div class="body">
+                    <input readonly id="screen" type="text" placeholder="SCREEN">
+                </div>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">+</button>
+                <button class="btn">7</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">*</button>
+                <button class="btn">0</button>
+                <button class="btn">00</button>
+                <button class="btn">.</button>
+                <button class="btn">/</button>
+                <button id="cancel">c</button>
+                <button id="equals">=</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="D:\jspiders\html\calculator\calcutarpra.js"></script>
+</body>
+</html>
